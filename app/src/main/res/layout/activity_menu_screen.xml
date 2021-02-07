@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/white"
+    tools:context=".Splash_and_Menu.menu_screen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/imageBtnSetting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:background="@color/white"
+            android:src="@drawable/settings"
+            android:tint="@color/settings_icon_color" />
+
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/splash_pic" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/menu_top_right" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewforIndex"
+        android:layout_width="230dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/white"
+        android:orientation="vertical" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/menu_bottom_left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>

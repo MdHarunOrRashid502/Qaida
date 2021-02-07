@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_item_text_size">22dp</dimen>
+    <dimen name="menu_item_height_size">40dp</dimen>
+    <dimen name="margin_start_menu_item_text">12dp</dimen>
+    <dimen name="space_between_two_menu_item">40dp</dimen>
+    <dimen name="margin_end_menu_item_text_view">12dp</dimen>
+    <dimen name="menu_item_margin_top">15dp</dimen>
+    <dimen name="menu_item_margin_bottom">15dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">القاری نورانی قائدہ</string>
+    <string name="selectedLanguage">اپنی زبان بندی منتخب کریں</string>
+    <string name="Lesson_1">تختی نمبر 1</string>
+    <string name="Lesson_2">تختی نمبر 2</string>
+    <string name="Lesson_3">تختی نمبر 3</string>
+    <string name="Lesson_4">تختی نمبر 4</string>
+    <string name="Lesson_5">تختی نمبر 5</string>
+    <string name="Lesson_6">تختی نمبر 6</string>
+    <string name="Lesson_7">تختی نمبر 7</string>
+    <string name="Lesson_8">تختی نمبر 8</string>
+    <string name="Lesson_9">تختی نمبر 9</string>
+    <string name="Lesson_10">تختی نمبر 10</string>
+    <string name="Lesson_11">تختی نمبر 11</string>
+    <string name="Lesson_12">تختی نمبر 12</string>
+    <string name="Lesson_13">تختی نمبر 13</string>
+    <string name="Lesson_14">تختی نمبر 14</string>
+    <string name="Lesson_15">تختی نمبر 15</string>
+    <string name="Lesson_16">تختی نمبر 16</string>
+    <string name="Lesson_17">تختی نمبر 17</string>
+    <string name="splash_text">سیکھیں آڈیو تجویدی قواعد کے ساتھ</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewLanguageSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectedLanguage"
+        android:textSize="24dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"/>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="05dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/english"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textColor="@color/black"
+            android:layoutDirection="rtl"
+            android:layout_gravity="start"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/urdu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="اردو"
+            android:paddingRight="130dp"
+            android:layoutDirection="rtl"
+            android:textColor="@color/black"
+            android:layout_gravity="start"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/continueButton"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="continue"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

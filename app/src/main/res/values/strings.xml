@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Al Qari Noorani Qaidah</string>
+    <string name="selectedLanguage">Select your lanuguage</string>
+    <string name="Lesson_1">Chapter 1</string>
+    <string name="Lesson_2">Chapter 2</string>
+    <string name="Lesson_3">Chapter 3</string>
+    <string name="Lesson_4">Chapter 4</string>
+    <string name="Lesson_5">Chapter 5</string>
+    <string name="Lesson_6">Chapter 6</string>
+    <string name="Lesson_7">Chapter 7</string>
+    <string name="Lesson_8">Chapter 8</string>
+    <string name="Lesson_9">Chapter 9</string>
+    <string name="Lesson_10">Chapter 10</string>
+    <string name="Lesson_11">Chapter 11</string>
+    <string name="Lesson_12">Chapter 12</string>
+    <string name="Lesson_13">Chapter 13</string>
+    <string name="Lesson_14">Chapter 14</string>
+    <string name="Lesson_15">Chapter 15</string>
+    <string name="Lesson_16">Chapter 16</string>
+    <string name="Lesson_17">Chapter 17</string>
+    <string name="splash_text">سیکھیں آڈیو تجویدی قواعد کے ساتھ</string>
+</resources>

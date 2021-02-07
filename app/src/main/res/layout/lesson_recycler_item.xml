@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemView"
+    android:layout_width="match_parent"
+    android:backgroundTint="#9A683E"
+    android:background="@color/white"
+    android:layout_marginTop="10dp"
+    android:layoutDirection="ltr"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mainBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:background="@drawable/corner_background">
+            <TextView
+                android:id="@+id/lesson_1_alphabetText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="الف"
+                android:textSize="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="3dp"
+                android:textColor="#B94C4F"
+                android:background="@android:color/transparent"/>
+
+            <TextView
+                android:id="@+id/lesson_1_alphabetText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:textAlignment="viewStart"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/lesson_1_alphabetText1"
+                android:text="ا"
+                android:textColor="@color/black"
+                android:layout_marginStart="2dp"
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                tools:ignore="RtlCompat" />
+        </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

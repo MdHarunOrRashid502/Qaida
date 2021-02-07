@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splach_pic_height">170dp</dimen>
+    <dimen name="splash_pic_width">170dp</dimen>
+    <dimen name="splash_bottom_text_size_text_view">22dp</dimen>
+    <dimen name="splash_bottom_text_margin_top">12dp</dimen>
+    <dimen name="menu_logo_image_width">35dp</dimen>
+    <dimen name="menu_logo_image_height">35dp</dimen>
+    <dimen name="menu_setting_icon_width">35dp</dimen>
+    <dimen name="menu_setting_icon_height">35dp</dimen>
+    <dimen name="menu_index_text_size">18sp</dimen>
+    <dimen name="menu_item_text_size">24dp</dimen>
+    <dimen name="menu_item_height_size">45dp</dimen>
+    <dimen name="margin_start_menu_item_text">12dp</dimen>
+    <dimen name="space_between_two_menu_item">40dp</dimen>
+    <dimen name="margin_end_menu_item_text_view">12dp</dimen>
+    <dimen name="menu_item_margin_top">15dp</dimen>
+    <dimen name="menu_item_margin_bottom">15dp</dimen>
+</resources>
