@@ -69,18 +69,20 @@
                     android:id="@+id/intrudaction_chapter1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="start|center_vertical"
                     android:layout_centerHorizontal="true"
-                    android:drawableStart="@drawable/playcircle"
-                    android:textColor="@color/black"
-                    android:textSize="14dp"
-                    android:padding="2dp"
-                    android:textAllCaps="false"
                     android:background="@android:color/transparent"
-                    android:text="Intruduction" />
+                    android:drawableStart="@drawable/playcircle"
+                    android:gravity="start|center_vertical"
+                    android:onClick="IntruductionButtonControl"
+                    android:padding="2dp"
+                    android:text="Intruduction"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
 
             </RelativeLayout>
             <RelativeLayout
+                android:id="@+id/rulesLayoutLesson1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="0dp"
@@ -92,13 +94,14 @@
                     android:layout_height="wrap_content"
                     android:gravity="start|center_vertical"
                     android:layout_centerHorizontal="true"
+                    android:onClick="RulesButtonControl"
                     android:drawableStart="@drawable/playcircle"
                     android:textColor="@color/black"
                     android:textAllCaps="false"
                     android:padding="2dp"
                     android:textSize="14dp"
                     android:background="@android:color/transparent"
-                    android:text="Play chapter" />
+                    android:text="  Rules" />
 
             </RelativeLayout>
         </LinearLayout>
